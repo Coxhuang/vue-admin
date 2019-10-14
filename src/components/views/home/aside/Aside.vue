@@ -4,17 +4,25 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
-		background-color: #B3C0D1;
+		background-color: #eef1f6;
 		.el-aside{
 			background-color: inherit;
 			height: 100%;
+			margin: 0;
+			padding: 0;
+			.el-menu{
+				background-color: inherit;
+			}
 		}
+	}
+	.el-menu-item{
+		background-color: #d1dbe5;
 	}
 </style>
 
 
 <template>
-	<div class="my-aside">
+	<el-main class="my-aside">
 		<el-aside style="width: 230px">
 			<el-menu :default-openeds="['1', '3']">
 				<el-submenu index="1">
@@ -31,7 +39,7 @@
 				</el-submenu>
 			</el-menu>
 		</el-aside>
-	</div>
+	</el-main>
 </template>
 
 <script>
