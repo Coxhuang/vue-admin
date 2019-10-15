@@ -12,6 +12,7 @@ export default {
 
 <style>
     #app {
+	    box-sizing: border-box;
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -20,6 +21,6 @@ export default {
 	    height: 100%;
         margin: 0;
 	    padding: 0;
-	    background-color: inherit;
+	    background-color: #ffffff;
     }
 </style>
