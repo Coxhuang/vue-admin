@@ -34,7 +34,15 @@
 				</el-header>
 
 				<el-main style="width: 100%;height: 100%;margin: 0;padding: 0;">
-					<myaside></myaside>
+					<el-container>
+						<el-aside style="width: 230px;height: 100%;margin: 0;padding: 0;">
+							<myaside></myaside>
+						</el-aside>
+
+						<el-main style="width: 100%;height: 100%;margin: 0;padding: 0;">
+
+						</el-main>
+					</el-container>
 				</el-main>
 			</el-container>
 		</div>
@@ -49,17 +57,16 @@
 	import mycontainer from "@/components/views/home/container/Container"
 	import myheader from "@/components/views/home/header/Header"
 	import myaside from "@/components/views/home/aside/Aside"
+	import mymain from "@/components/views/home/main/Main"
 
 	export default {
 		name: 'Home',
 		data() {
-
-			return {
-			}
+			return {}
 		},
 		components:{
             myheader,
-            mycontainer,
+            mymain,
             myaside,
 		}
 }

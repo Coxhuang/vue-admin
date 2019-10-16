@@ -1,8 +1,5 @@
 <style scoped lang="scss">
-	/*.el-container{*/
-	/*	margin: 0;*/
-	/*	padding: 0;*/
-	/*}*/
+
 
 </style>
 
