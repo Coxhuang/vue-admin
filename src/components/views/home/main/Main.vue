@@ -1,16 +1,25 @@
 <style lang="scss" scoped>
 	.my-main-con{
-		width: 1000px;
+		width: 100%;
 		height: 100%;
 		margin: 0;
-		padding: 0;
-		background-color: aquamarine;
+		padding: 20px;
+		background-color: inherit;
+		.my-main-box{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			background-color: inherit;
+		}
 	}
 </style>
 
 <template>
 	<div class="my-main-con">
-		aaa
+		<div class="my-main-box">
+			<router-view></router-view>
+		</div>
 	</div>
 </template>
 

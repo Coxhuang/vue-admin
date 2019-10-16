@@ -1,18 +1,4 @@
 <style scoped lang="scss">
-	/*.el-aside{*/
-	/*	background-color: inherit;*/
-	/*	height: 100%;*/
-	/*	margin: 0;*/
-	/*	padding: 0;*/
-	/*	.el-menu{*/
-	/*		background-color: inherit;*/
-	/*	}*/
-	/*}*/
-	/*.el-menu-item{*/
-	/*	background-color: #d1dbe5;*/
-	/*}*/
-
-
 	.my-aside-con{
 		width: 100%;
 		height: 100%;
@@ -35,7 +21,6 @@
 		color: #48576a;
 		background-color: #e4e8f1;
 	}
-
 </style>
 
 
@@ -50,10 +35,14 @@
 						导航一
 					</template>
 						<el-menu-item index="1-1">
-							选项1
+							<router-link to="/table">
+								选项1
+							</router-link>
 						</el-menu-item>
 						<el-menu-item index="1-2">
-							选项2
+							<router-link to="/table2">
+								选项2
+							</router-link>
 						</el-menu-item>
 				</el-submenu>
 			</el-menu>
