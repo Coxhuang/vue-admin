@@ -38,7 +38,6 @@
 						<el-aside style="width: 230px;height: 100%;margin: 0;padding: 0;">
 							<myaside></myaside>
 						</el-aside>
-
 						<el-main style="width: 100%;height: 100%;margin: 0;padding: 0;">
 							<mymain></mymain>
 						</el-main>
@@ -47,10 +46,6 @@
 			</el-container>
 		</div>
 	</div>
-
-
-
-
 </template>
 
 <script>
