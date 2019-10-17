@@ -9,12 +9,6 @@
 			height: 100%;
 			margin: 0;
 			padding: 0;
-			/*.head-left{*/
-			/*	width: 230px;*/
-			/*	height: 100%;*/
-			/*	margin: 0;*/
-			/*	padding: 0;*/
-			/*}*/
 		}
 	}
 	.el-container{
@@ -27,9 +21,11 @@
 	<div class="my-header-con">
 		<div class="my-header-box">
 			<el-container>
-				<el-aside style="width: 230px;height: 100%;background-color: #48576a">
-					<div style="">
+				<el-aside style="width: 230px;height: 100%;">
+					<div style="height: 100%;width: 100%;margin: 0;padding: 0;border-right: 1px solid#d4e2cc">
+						<div style="height: 100%;width: 100%;margin: 0;padding: 8px 25px;">
 
+						</div>
 					</div>
 				</el-aside>
 			</el-container>
