@@ -31,6 +31,7 @@
 		<div class="my-home-box">
 			<el-container>
 				<el-header style="background-color: #409eff">
+					<myheader></myheader>
 				</el-header>
 
 				<el-main style="width: 100%;height: 100%;margin: 0;padding: 0;">
