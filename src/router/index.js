@@ -14,11 +14,11 @@ export default new Router({
             children:[
                 {
                     path: "/table",
-                    component:() => import ("@/components/views/home/main/detail/1")
+                    component:() => import ("@/components/views/home/main/detail/table.vue")
                 },
                 {
-                    path: "/table2",
-                    component:() => import ("@/components/views/home/main/detail/2")
+                    path: "/form",
+                    component:() => import ("@/components/views/home/main/detail/form")
                 }
             ]
         }
